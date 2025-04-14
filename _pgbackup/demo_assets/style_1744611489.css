@@ -98,7 +98,7 @@ video {
     max-width: 100%;
 }
 
-/* img {
+img {
     border: none;
     height: auto;
     max-width: 100%;
@@ -107,7 +107,8 @@ video {
     -ms-user-select: none;
     user-select: none;
     vertical-align: middle;
-} */
+}
+
 a {
     outline: 0;
     display: inline-block;
@@ -2216,6 +2217,7 @@ mark {
 }
 
 .hero_section:has(.home_meme.swiper-slide-active) .color_overlay {
+    --bs-secondary: #0D9565;
 }
 
 .hero_section:has(.home_pepe.swiper-slide-active) .color_overlay {

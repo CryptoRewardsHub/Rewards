@@ -98,7 +98,7 @@ video {
     max-width: 100%;
 }
 
-/* img {
+img {
     border: none;
     height: auto;
     max-width: 100%;
@@ -107,7 +107,8 @@ video {
     -ms-user-select: none;
     user-select: none;
     vertical-align: middle;
-} */
+}
+
 a {
     outline: 0;
     display: inline-block;
@@ -140,6 +141,22 @@ button {
 
 button:focus {
     outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--bs-heading-color);
+    font-family: var(--bs-heading-font-family);
+}
+
+b,
+strong {
+    font-weight: 700;
 }
 
 p strong {
@@ -2189,11 +2206,9 @@ mark {
 }
 
 .hero_section h1 strong {
-    font-weight: 400;
+    font-weight: 700;
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 75px;
-    margin-right: 0;
-    margin-bottom: -30px;
+    font-size: 82px;
 }
 
 .hero_section p {
@@ -2216,6 +2231,7 @@ mark {
 }
 
 .hero_section:has(.home_meme.swiper-slide-active) .color_overlay {
+    --bs-secondary: #0D9565;
 }
 
 .hero_section:has(.home_pepe.swiper-slide-active) .color_overlay {
@@ -3335,57 +3351,6 @@ transition: none !important;
 .swiper-slide {
     transition: none !important;
     transform: none !important;
-}
-
- {
-}
-
- {
-}
-
- {
-}
-
-.hero-title {
-    color: #e0dfff;
-    text-shadow: 0 0 10px rgba(192, 155, 255, 0.5),
-0 0 20px rgba(192, 155, 255, 0.4),
-0 0 30px rgba(192, 155, 255, 0.3);
-    font-weight: 800;
-    letter-spacing: 2px;
-    transition: text-shadow 0.3s ease;
-}
-
- {
-}
-
-.hero-title:hover {
-    text-shadow: 0 0 15px rgba(192, 155, 255, 0.7),
-0 0 25px rgba(192, 155, 255, 0.6),
-0 0 35px rgba(192, 155, 255, 0.5);
-}
-
- {
-}
-
-h1 {
-    color: #e0dfff !important;
-    text-shadow: 0 0 10px #f34efd,
-0 0 20px #a88cff,
-0 0 40px #a88cff !important;
-    font-weight: 800 !important;
-    letter-spacing: 2px;
-}
-
- {
-}
-
-h1:hover {
-    text-shadow: 0 0 15px #d9bfff,
-0 0 25px #b680ff,
-0 0 35px #854eff,
-0 0 45px #651fff;
-    transform: scale(1.02);
 }
 
  {

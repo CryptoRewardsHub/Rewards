@@ -98,7 +98,7 @@ video {
     max-width: 100%;
 }
 
-/* img {
+img {
     border: none;
     height: auto;
     max-width: 100%;
@@ -107,7 +107,8 @@ video {
     -ms-user-select: none;
     user-select: none;
     vertical-align: middle;
-} */
+}
+
 a {
     outline: 0;
     display: inline-block;

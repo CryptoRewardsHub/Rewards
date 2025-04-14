@@ -98,7 +98,7 @@ video {
     max-width: 100%;
 }
 
-/* img {
+img {
     border: none;
     height: auto;
     max-width: 100%;
@@ -107,7 +107,8 @@ video {
     -ms-user-select: none;
     user-select: none;
     vertical-align: middle;
-} */
+}
+
 a {
     outline: 0;
     display: inline-block;
@@ -140,6 +141,17 @@ button {
 
 button:focus {
     outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--bs-heading-color);
+    font-family: var(--bs-heading-font-family);
 }
 
 p strong {
@@ -2199,7 +2211,7 @@ mark {
 .hero_section p {
     font-size: 20px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 14;
     margin-bottom: 52px;
 }
 
@@ -2216,6 +2228,7 @@ mark {
 }
 
 .hero_section:has(.home_meme.swiper-slide-active) .color_overlay {
+    --bs-secondary: #0D9565;
 }
 
 .hero_section:has(.home_pepe.swiper-slide-active) .color_overlay {
@@ -3370,7 +3383,7 @@ transition: none !important;
 
 h1 {
     color: #e0dfff !important;
-    text-shadow: 0 0 10px #f34efd,
+    text-shadow: 0 0 10px #a88cff,
 0 0 20px #a88cff,
 0 0 40px #a88cff !important;
     font-weight: 800 !important;
