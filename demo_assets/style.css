@@ -1378,7 +1378,7 @@ mark {
   --bs-body-bg-rgb: 4, 6, 18;
   --bs-body-color: #DCDEE9;
   --bs-body-color-rgb: 220, 222, 233;
-  --bs-heading-color: #FFFFFF;
+  --bs-heading-color: #d0d0d0;
   --bs-light: #C5F57D;
   --bs-light-rgb: 197, 245, 125;
   --bs-primary: #0E9462;
@@ -1451,7 +1451,7 @@ mark {
 .index_pepecoin {
   --bs-body-font-family: "Nunito Sans", serif;
   --bs-heading-font-family: "Lilita One", serif;
-  --bs-body-bg: #FFF7AF;
+  --bs-body-bg: #d0d0d07AF;
   --bs-body-bg-rgb: 255, 247, 175;
   --bs-body-color: #113B1E;
   --bs-body-color-rgb: 17, 59, 30;
